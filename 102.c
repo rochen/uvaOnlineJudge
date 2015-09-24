@@ -8,7 +8,7 @@ int main() {
 	char str[1024];
 	
 	while(gets(str)) {
-		sscanf(str, "%d %d %d %d %d %d %d %d %d", &b[0],&g[0],&c[0],&b[1],&g[1],&c[1],&b[2],&g[2],&c[2]);
+		sscanf(str, "%d %d %d %d %d %d %d %d %d", &b[0], &g[0], &c[0], &b[1], &g[1], &c[1], &b[2], &g[2], &c[2]);
 		
 		move[0] = b[1]+b[2]+c[0]+c[2]+g[0]+g[1]; //BCG
 		move[1] = b[1]+b[2]+g[0]+g[2]+c[0]+c[1]; //BGC
