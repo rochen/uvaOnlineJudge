@@ -1,3 +1,3 @@
 # uvaOnlineJudge
-https://uva.onlinejudge.org
-aru.chen
+# https://uva.onlinejudge.org
+# aru.chen
